@@ -19,3 +19,10 @@ I also plan to connect the Pi to a real display / monitor and use it for "comput
 \- /web/index.php     This draws the graph on the control-website
 
 \- /web/js/loader.js  loader.js from google
+
+# Sources
+Oh, there are a lot I glanced over and some I stole code from. AFAIR these are the most important ones (meaning: helped the most):
+- For the OLED Display: https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/
+- For general info about how to code stuff I somehow always end up at: https://stackoverflow.com
+- some inspiration came from https://www.instructables.com/id/Raspberry-datalogger-with-Mysql-Highcharts/
+- and all the others I forgot...
