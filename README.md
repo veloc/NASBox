@@ -10,3 +10,10 @@ The front of the box will have a hole where some kind of filter medium will hold
 It will sport a display stating some basic info about the box (OLDE.py) like temperature, IP and maybe load of the Pi. I also have a nice aluminium knob that might be used for selecting stuff while the display is used to show a menu like structure - but currently I am not sure what I might use it for. The display and maybe a power control button will be set in a aluminium strip to make it look - awesome!
 
 I also plan to connect the Pi to a real display / monitor and use it for "computer-related stuff in the workshop" like watching videos or listening to some music - wich means, I also have to think about speakers at some point.
+
+# Explanation of the files
+  /
+ 	- OLED.py           This is used to draw the wanted Info onto the OLED
+  - mbe2db.py         This inserts the temperature and other data into the database
+  -/web/index.php     This draws the graph on the control-website
+  -/web/js/loader.js  loader.js from google
