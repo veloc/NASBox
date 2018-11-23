@@ -12,9 +12,9 @@ It will sport a display stating some basic info about the box (OLDE.py) like tem
 I also plan to connect the Pi to a real display / monitor and use it for "computer-related stuff in the workshop" like watching videos or listening to some music - wich means, I also have to think about speakers at some point.
 
 # Explanation of the files
-\- /OLED.py           This is used to draw the wanted Info onto the OLED
+\- /OLED.py           This is used to draw the wanted Info onto the OLED. Also, the file is executed at boottime via cron
 
-\- /mbe2db.py         This inserts the temperature and other data into the database
+\- /mbe2db.py         This inserts the temperature and other data into the database. File is executed every 5m via cron
 
 \- /web/index.php     This draws the graph on the control-website
 
